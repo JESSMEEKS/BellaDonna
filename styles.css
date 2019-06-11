@@ -1,0 +1,577 @@
+@charset "utf-8";
+ 
+/*
+	assignment:V4 Style Sheet for Bella Donna 
+	
+	
+Bella Donna Salon CSS Page
+Author: Jessica Meeker
+Date:5/28/2019
+	
+filename: styles.css
+*/
+
+/*Reset*/
+
+article,figure,footer,header,nav{
+	display: block;
+	clear:both;
+}
+
+article,blockquote,body,cite,figure,footer,h1,h2,h3,h4,h5,header,html,img,li,nav,nav a, ol,p,section,ul{
+	background: transparent;
+	font-size: 100%;
+	margin: auto;
+	padding: 0;
+	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+ul,ol{
+	list-style:none;
+}
+
+/* Body Style*/
+html{
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}	
+html body{
+	height:100%;
+}
+
+body{ 
+	background-image: url(brown.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	overflow:auto;
+    width:80%;
+	
+}
+
+body{
+	border-radius:20px;
+	border-left:2px solid black;
+	border-right:2px solid black;
+	box-shadow:black 25px 0px 25px,
+	black -25px 0px 25px;
+}
+
+
+/*header image and body content*/
+article.availability{
+	clear:both;
+	content:"";
+	display: block;
+	position:relative;
+}
+
+article.availability{
+	background-color: black;
+	border-radius: 30px;
+	color: #BC8F8F;
+	font-size:30px;
+	margin-top:25px;
+	margin-bottom:65px;
+	text-align:center;
+	text-decoration:none;
+}
+
+article.contact{
+	clear:both;
+	content:"";
+	display: block;
+	position:relative;
+}
+article.contact{
+	color: #BC8F8F;
+	font-size:30px;
+	margin-top:25px;
+	margin-left:60px;
+	margin-right:60px;
+	margin-bottom:65px;
+	text-align:center;
+	text-decoration:none;
+}
+article.contact{
+	background-color: black;
+	border-radius:30px;
+}
+address.address{
+	clear:both;
+	content:"";
+	display: block;
+	position:relative;
+}
+address.address{
+	color: #BC8F8F;
+	font-size:30px;
+	margin-top:25px;
+	margin-left: 60px;
+	margin-right:60px;
+	margin-bottom:65px;
+	text-align:center;
+	text-decoration:none;
+}
+address.address{
+	background-color: black;
+	border-radius: 30px;
+}
+article.socialmedia {
+		clear:both;
+		content:"";
+		display: block;
+		position:relative;
+}
+
+
+article.socialmedia {
+		margin:auto;
+		opacity:0.75;
+		transform:scale(0.7,0.5);
+
+
+}
+body aside a{
+	background-color: black;
+	color: #BC8F8F;
+	font-size:50px;
+	margin-bottom:65px;
+	text-align:center;
+	text-decoration:none;
+}
+
+body aside a{
+	text-shadow:2px 2px 25px gray;
+}
+
+body aside a{
+	clear: both;
+	content:'';
+	display: block;
+}
+
+body header{
+	background-color: #000000;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+body header img{
+	box-sizing:border-box;
+	display: block;
+	clear: both;
+	margin-top:30px;
+	width: 80%;
+}
+
+body figure img{
+	box-sizing:border-box;
+	display: block;
+	clear: both;
+	margin-top: 75px;
+	margin-bottom: 25px;
+	width: 55%;
+}
+
+body figure img{
+	border-radius:20px;
+	border-left:2px solid black;
+	border-right:2px solid black;
+	box-shadow:black 25px 25px 25px,
+	black -25px -25px 25px;
+}
+
+h2.tel a{
+	background-color: black;
+	border-radius: 30px;
+	color: #BC8F8F;
+	font-size:50px;
+	margin-bottom:65px;
+	text-align:center;
+	text-decoration:none;
+}
+h2.tel a{
+	clear: both;
+	content:'';
+	display: block;
+}
+
+h3#V1{
+	background:radial-gradient(#BC8F8F,#603939);
+	color:black;
+	font-size: 2em;
+	margin-top: 25px;
+	margin-bottom:25px;
+	text-align: center;
+	
+}
+h3#V2{
+	background:radial-gradient(#BC8F8F,#603939);
+	color:black;
+	font-size: 2em;
+	margin-top: 25px;
+	margin-bottom:25px;
+	text-align: center;
+}
+
+h3#V3{
+	background:radial-gradient(#BC8F8F,#603939);
+	color:black;
+	font-size: 2em;
+	margin-top: 25px;
+	margin-bottom:25px;
+	text-align: center;
+}
+
+h4{
+	background:radial-gradient(#BC8F8F,#603939);
+	border-radius: 30px;
+	color:black;
+}
+
+h4{
+	font-size: 2em;
+	margin-top: 25px;
+	margin-bottom:25px;
+	padding:20px;
+	padding-left:55px;
+	padding-right:55px;
+	text-align: center;
+}
+
+h4{
+	display:block;
+	clear:both;
+}
+
+main.prices{
+	margin-top: 10px;
+	padding: 30%;
+}
+.service{
+	font-size: 3em;
+}
+/*gallery images*/
+section.balayage img{
+	box-sizing:border-box;
+	display: block;
+	clear: both;
+	margin-top:30px;
+	width: 40%;
+	
+}
+
+section.balayage h4{
+	color: black;
+	font-size:50px;
+	margin-bottom:65px;
+	text-align:center;
+	
+}
+
+section.color img{
+	box-sizing:border-box;
+	display: block;
+	clear: both;
+	margin-top:30px;
+	width: 40%;
+	
+}
+
+section.color h4{
+	color: black;
+	font-size:50px;
+	margin-bottom:65px;
+	text-align:center;
+	
+}
+
+section.haircut img{
+	box-sizing:border-box;
+	display: block;
+	clear: both;
+	margin-top:30px;
+	width: 40%;
+	
+}
+section.haircut h4{
+	color: black;
+	font-size:50px;
+	margin-bottom:65px;
+	text-align:center;
+	
+}
+section.foil img{
+	box-sizing:border-box;
+	display: block;
+	clear: both;
+	margin-top:30px;
+	width: 40%;
+	
+}
+section.foil h4{
+	color: black;
+	font-size:50px;
+	margin-bottom:65px;
+	text-align:center;
+	
+}
+/* lists*/
+
+body> ul> li{
+	color: #BC8F8F;
+	font-size:20px;
+	list-style-type:none;	
+}
+body>ol>li{
+	list-style-type: none;
+}
+ol{
+  background-color: black;
+  color:#BC8F8F;
+  text-decoration: none;
+  text-align: center;
+	
+	}
+ol{
+	box-sizing:border-box;
+	display: block;
+	clear: both;
+	
+}
+ol{
+	border-radius: 30px;
+	margin-top:45px;
+	margin-bottom:65px;
+	padding:75px;
+}
+ol.sources{
+    font-size: 8px;
+	text-align: center;
+}
+ol.sources{
+	display: block;
+	margin-top: 10px;
+	width: 100%;
+}
+/* Navigation Styles*/
+nav.horizontal li{
+	float: left;
+	list-style-type: none;
+	margin-top: auto;
+	padding: 10px;
+	width: 24.3%;
+}
+
+nav.horizontal li{
+	font-size: 30px;
+	font-family: cursive;
+	text-align: center;
+	text-decoration: none;
+}
+nav.horizontal::after{
+	clear: both;
+	content:'';
+	display: block;
+	
+}
+nav.horizontal a:link, nav.horizontal a:visited{
+	color: #BC8F8F;
+	text-decoration: none;
+	
+}
+nav.horizontal a:hover, nav.horizontal a:active{
+	color: white;
+	text-decoration: none;
+}
+/*general flex styles*/
+/*•	M5LO5 Demonstrate the use of flexboxes on a web page. i used flex boxes below*/
+
+
+body{
+	display:-webkit-flex;
+	display:flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+body aside{
+	flex-basis: 100%;
+	
+}
+header,footer{
+	width:100%;
+}
+
+/* M5LO6 Demonstrate use of properties of flexbox items. i used the flex items below to position the content of my contact page.*/
+address.address{
+	-webkit-flex: 3 1 200px;
+	flex: 3 1 200px;
+}
+article.availability{
+	flex-basis: 100%;
+}
+article.contact{
+	-webkit-flex: 1 1 400px;
+	flex: 1 1 400px;
+}
+h2.tel{
+	flex-basis: 100%;
+}
+
+/*M5LO7 Demonstrate use of properties of flexbox containers. 
+	    i used the flex container property (flex-flow) to set the direction of my colums to wrap horizontally*/
+ol{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;						
+	flex-flow: row wrap;
+}
+
+ol{
+	-webkit-flex: 3 1 200px;
+	flex: 3 1 200px;	
+}
+/*pull down menu*/
+
+/*•	M5LO4 Use CSS for pull-down menus. pull down menu used on home page under services*/
+ul.submenu {
+	display:none;
+	margin:40%;
+	padding: 5px;
+}
+a.subnav:hover+ul.submenu, ul.submenu:hover{
+	clear:both;
+	display:block;
+}
+
+/*mobile styles*/
+/*M5LO3 Use media queries to format a page differently for phones vs. PCs. phone media queries below*/
+@media only screen and (max-width: 480px){
+	.nav{
+		display: -webkit-flex;
+	    display: flex;
+	    -webkit-flexl-flow: column wrap;				
+	    flex-flow: column wrap;
+		height:300px;
+}
+  	body>footer{
+			-webkit-order: 100;
+			order: 100;
+}			
+}
+/*tablet and destop devices 481px or more*/
+
+@media only screen and (min-width: 481px){
+	body> header> nav.horizontal> ul{
+		height: 150px;
+}
+body> footer{
+	-webkit-order: 100;
+	order: 100;
+}
+}
+
+/*Table Styles*/
+/*M6LO7 Demonstrate how to format a table with CSS. my table has a border, background, color and has been given styling rules.*/
+table{
+	width:90%;
+	margin:auto;
+	border: 20px outset #BC8F8F;
+	border-spacing: 0;
+	font-family:Arial, Verdana, sans-serif;
+}
+
+table tr{
+	height: 30px;
+}
+
+th, td{
+	border: 2px solid #BC8F8F;
+	color: #BC8F8F;
+	vertical-align: top;
+	line-height:1.5em;
+	padding:5px;
+	
+}
+
+/*table captions*/
+
+caption{
+	color: #BC8F8F;
+	caption-side: bottom;
+	text-align: center;
+}
+
+/* table columns*/
+
+.time{
+	width: 10%;
+	background-color: black;
+	
+}
+.weekdays{
+	background-color: black;
+}
+
+.weekends{
+	background-color:black;
+}
+
+/*forms*/
+
+h5{
+	font-size:20px;
+	text-align:center;
+	text-shadow: 2px 2px 5px black;
+}
+input{
+	margin-left:20px;
+}
+input:focus, textarea:focus {  
+	color:#BC8F8F;                  
+	background-color: black;
+}
+
+input:focus:valid{
+	color:#BC8F8F;
+}
+
+
+input:focus:invalid{
+	background-color: red;
+}
+section p{
+	text-align: center;
+}
+section{
+	background-color: #BC8F8F;
+	border:20px outset black;
+	vertical-align: top;
+	line-height:1.5em;
+	margin-top:45px;
+	padding:5px;
+	width:90%;
+}
+/* footer Styles */
+	
+footer{
+	clear: both;
+	display:block;
+	position: relative;
+	border-radius: 10px;
+	}
+	
+footer{
+	color:black;
+	background:radial-gradient(#BC8F8F,#603939);
+	font-size: 25px;
+	text-align: center;
+}

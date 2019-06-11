@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<meta charset="utf-8">
+	
+	<!--
+		assignment: V3 Modules 5 & 6
+		
+	Bella Donna Salon Home Page
+	Author: Jessica Meeker
+	Date: 5/12/2019
+		
+    filename: contact.html
+	-->	
+   	<meta name="viewport" content="width=device-width, initial-scale=1" />	
+	<meta name="keywords" content="salon, hair, beautysalon, balayage, belfair, haircut, tanning, waxing" />
+	
+	<title>Contact Page</title>
+	
+   <link href="https://fonts.google.com/specimen/Merriweather" rel="stylesheet">
+   <link href="https://fonts.google.com/specimen/Noto+Serif" rel="stylesheet">
+   <link href="styles.css" rel="stylesheet" />
+		
+</head>
+
+<body>
+	<header>
+	
+		<img src="BellaDonnaBanner.jpg" alt="Bella Donna Salon" />
+	    
+    <nav class="horizontal">
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="#" class="subnav">Services</a>
+			     <ul class="submenu">
+					 <li><a href="services.html">Prices</a></li>
+					 <li><a href="gallery.html">Gallery</a></li>
+				</ul>
+				</li>
+			<li><a href="contact.html">Contact</a></li>
+		 </ul>     
+    </nav>
+	</header>
+	
+	<article class="contact">
+		<h4>Contact</h4>
+		<p>We are located in the small town of Belfair between Peninsula credit union and Local Wrench. We are on the top floor above Ray's  		   Barber shop. To access our door drive up the hill around the back of the building.</p>
+	</article>
+	
+	<address class="address">
+		<strong>Visit us at:</strong><br>
+		23552 NE State Route 3 Suite 2B, Belfair WA 98528
+	</address>
+	
+	<h2 class="tel">
+	<a href="tel:360-275-2509">360-275-2509</a>
+    </h2>
+	
+	<!--M6LO3 Demonstrate how to create a table. below i created a table showing my availability.-->
+    <table class="Scheduling">
+		<caption> Bella Donna Availability</Caption>
+			<colgroup>
+				<col class="time" />
+				<col class="weekdays" span="5" />
+				<col class="weekends" span="2" />
+			</colgroup>
+			<thead>
+				<tr>
+					<th>Time</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+				    <th>Sat</th>   
+				    <th>Sun</th>	
+				</tr>
+			</thead>
+			
+		<!--•	M6LO4 Demonstrate how to span multiple rows or multiple columns in a table.i used a row span of 8 to fill the row to the    				bottom of my hours. I used a colspan of 2 on Sat to cover my availibity for sat sun.-->          
+			<tbody>
+				<tr>
+					<th>10:00</th>
+					<td rowspan="8">Open</td>
+					<td rowspan="8">Closed</td>
+					<td rowspan="8">Open</td>
+					<td rowspan="8">Closed</td>
+					<td rowspan="8">Open</td>
+					<td rowspan="8" colspan="2">Closed</td>	
+				</tr>
+				<tr>
+					<th>11:00</th>	
+				</tr>
+				<tr>
+					<th>12:00</th>	
+				</tr>
+				<tr>
+					<th>1:00</th>	
+				</tr>
+				<tr>
+					<th>2:00</th>	
+				</tr>
+				<tr>
+					<th>3:00</th>
+				</tr>
+				<tr>
+					<th>4:00</th>   
+				</tr>
+				<tr>
+					<th>5:00</th>	
+				</tr>
+				<tr>
+					<th>6:00</th>
+					<td colspan="7">after hour appointments available</td>
+				</tr>	
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="8">Scheduling by Appointment only!</td>
+				</tr>
+			</tfoot>
+    </table>
+
+    <section>
+    	<h5>Join our mailing list</h5>
+		<p>Enter your contact info below for monthly specials,offers, and happenings!</p>
+		
+		<form action="http://example.com/BellaDonnaSalon" type="post">
+			<!--o	M7LO5 Demonstrate the use of a text box in a form-->
+			<div>
+				<label for="firstname">First Name*</label>
+				<input type="text" name="firstName" id="FN" required />
+			</div>
+			<div>
+				<label for="lastname">Last Name*</label>
+				<input type="text" name="lastName" id="LN" required />
+			</div>
+			<div>
+				<label for="email">Email*</label>
+				<input type="text" name="email" id="emailbox" required />
+			</div>
+			<div>
+				<label for="phoneNumber">Phone Number</label>
+				<input type="text" name="phoneNumber" id="numbox" placeholder="(nnn)nnn-nnnn"       					   					pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+			</div>
+			<!--o	M7LO7 Demonstrate the use of radio buttons in a form-->
+			<div>
+				<input type="radio" id="textmessages" name="textOptions" checked value="yes">
+				<label for="yes" value="yes">yes text this number with monthly specials</label>
+	            <input type="radio" id="no text" name="textOptions" checked value="no">
+				<label for="no" value="no">no I do not want to receive texts</label>
+			</div>
+			<!--o	M7LO10 Demonstrate the use of a submit button in a form-->
+			<div>
+				<input type="submit" value="Join Mailing List">
+			</div>
+		</form>
+    </section>
+	       
+   <article class="socialmedia">
+		  <h2>
+			<a href="https://www.facebook.com/belladonnasalonandspa.belfair/"><img src="facebook.jpeg" alt="Salon"/></a>
+		
+			  <a href="https://www.google.com/maps/place/Bella+Donna+Salon+%26+Spa/@47.4487886,-122.8305429,17z/data=!3m1!4b1!4m5!3m4!1s0x5491b563e4505887:0xec84f468a150a92a!8m2!3d47.4487886!4d-122.8283542"><img src="google.jpeg" alt="google"></a>
+			<a href="https://www.yelp.com/biz/bella-donna-salon-and-spa-belfair"><img src="yelp.jpeg" alt="yelp"></a>
+	  	  </h2>
+    </article>
+	   
+<footer>
+			Bella Donna Salon &#9830; 23552 State Route 3 Ste. 2B &#9830; Belfair, WA 98528 &#9830;
+</footer>
+</body>
+</html>
+
+	
