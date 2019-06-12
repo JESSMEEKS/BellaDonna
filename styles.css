@@ -396,12 +396,6 @@ nav.horizontal a:hover, nav.horizontal a:active{
 /*•	M5LO5 Demonstrate the use of flexboxes on a web page. i used flex boxes below*/
 
 
-body{
-	display:-webkit-flex;
-	display:flex;
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;
-}
 body aside{
 	flex-basis: 100%;
 	
@@ -560,6 +554,31 @@ section{
 	padding:5px;
 	width:90%;
 }
+
+/*media styles*/
+/*M8LO12 Demonstrate how to format media with CSS. I added a black box shadow and centered both my iframe and audio on my index page.
+  i also adjusted the width and padding so the audio would sit how I wanted.*/
+
+/*M8LO10 Demonstrate a CSS animation or transition. I used a transition to ease in the box shadow on my iframe.
+*/
+aside iframe{
+	box-shadow:black 25px 25px 25px,
+	black -25px -25px 25px;
+	display: block;
+	margin: auto;
+	transition:box-shadow 2.5s ease-in 1.5s;
+}
+
+aside audio{
+	background-color:black;
+	box-shadow: black 7px 7px 10px;
+	display: block;
+	margin:20px auto;
+	padding:20px;
+	width:50%;
+	
+}
+
 /* footer Styles */
 	
 footer{
